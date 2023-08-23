@@ -14,6 +14,9 @@ const nextConfig = {
           delete modularizeImports["@headlessui/react"];
         return config;
       },
+      images: {
+        domains: ["cdn.imagin.studio"]
+    },
 
 }
 
